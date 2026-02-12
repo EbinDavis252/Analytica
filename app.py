@@ -5,7 +5,7 @@ from torch.nn import functional as F
 from tokenizers import Tokenizer
 
 # --- 1. CONFIGURATION & STYLING ---
-st.set_page_config(page_title="FinLogic AI", page_icon="📈", layout="wide")
+st.set_page_config(page_title="Analytica", page_icon="📈", layout="wide")
 
 # Custom CSS for a professional "Dark Finance" look
 st.markdown("""
@@ -72,7 +72,7 @@ def load_tokenizer():
         return None
 
 # --- 4. APP LOGIC ---
-st.title("📈 FinLogic AI")
+st.title("📈 Analytica")
 st.caption("A Domain-Specific LLM for Finance & Analytics Students")
 
 # Sidebar for controls
